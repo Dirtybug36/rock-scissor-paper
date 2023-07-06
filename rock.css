@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  font-weight: 300;
+}
+.title {
+  font-size: 35px;
+}
+img {
+  height: 50px;
+}
+.rock-button,
+.scissor-button,
+.paper-button {
+  width: 120px;
+  height: 120px;
+  object-fit: fill;
+  background-color: black;
+  border-radius: 60px;
+  cursor: pointer;
+  border: 3px solid white;
+  margin: 2px;
+}
+.results {
+  margin-top: 29px;
+  font-size: 25px;
+}
